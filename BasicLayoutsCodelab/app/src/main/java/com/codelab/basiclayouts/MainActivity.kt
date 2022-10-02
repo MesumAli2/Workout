@@ -243,6 +243,7 @@ private val favoriteCollectionsData = listOf(
     R.drawable.fc6_nightly_wind_down to R.string.fc6_nightly_wind_down
 ).map { DrawableStringPair(it.first, it.second) }
 
+
 private data class DrawableStringPair(
     @DrawableRes val drawable: Int,
     @StringRes val text: Int
